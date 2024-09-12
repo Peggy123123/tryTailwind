@@ -1,0 +1,14 @@
+.carousel-item {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 1s ease-in-out; /* 使用1秒的淡入淡出效果 */
+  width: 100%;
+}
+
+/* 當輪播項目被激活時顯示 */
+.carousel-item:active {
+  opacity: 1;
+  position: relative;
+}
