@@ -21,6 +21,6 @@
   }
 
   .navbar__text-color {
-    @apply text-gray-500 hover:text-gray-800 md:text-white md:hover:text-gray-800 duration-300 text-base;
+    @apply text-gray-500 hover:text-gray-800 md:hover:text-gray-800 duration-300 text-base;
   }
 }

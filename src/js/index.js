@@ -40,12 +40,12 @@ const tab = new Tabs(
   tabsInstanceOptions
 );
 
-//在某個動作之後會指定當前tab
+// 在某個動作之後會指定當前tab
 setTimeout(() => {
   tab.show("profile");
 }, 3000);
 
-//點擊定tab後要做的動作
+// 點擊定tab後要做的動作
 tab.updateOnShow((id) => {
   switch (id._activeTab.id) {
     case "profile":
